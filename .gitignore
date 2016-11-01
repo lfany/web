@@ -209,3 +209,6 @@ modules.xml
 ### Ninja ###
 .ninja_deps
 .ninja_log
+
+### boilerplate ###
+dist/
