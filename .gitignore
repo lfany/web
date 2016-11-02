@@ -103,7 +103,7 @@ jspm_packages
 
 
 ### CoffeeScript ###
-*.js
+#*.js
 
 
 ### JetBrains ###
