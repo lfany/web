@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sheetLoaded</title>
+    <link rel="stylesheet" href="main.css" onload="sheetLoaded()" onerror="sheetError()">
+</head>
+<body>
+
+<script type="text/javascript">
+    function sheetLoaded() {
+//        sheetLoaded
+        console.log("sheetLoaded.")
+    }
+
+    function sheetError() {
+        console.log("load error.")
+    }
+
+</script>
+</body>
+</html>
